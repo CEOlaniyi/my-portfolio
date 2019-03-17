@@ -7,15 +7,12 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="CEOlaniyi's Portfolio">
+  <meta name="description" content="ce0la's Portfolio">
   <meta name="author" content="Olaniyi Oshunbote">
   <meta name="google-site-verification" content="g3q-FCdB79JR_bnXhvCzshqRnyuq8rbX_gDTRMzqA_U">
   <meta name="twitter:title" content="ce0la's portfolio">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="{% static 'img/site-icons/site.webmanifest' %}">
+  <link rel="shortcut icon" href="{% static 'img/site-icons/my-favicon.ico' %}" type="image/x-icon">
 
   <title>{% block title %}{% endblock %}</title>
 
@@ -283,6 +280,20 @@
 
   <!-- Custom scripts for this template -->
   <script src="{% static 'js/freelancer.min.js' %}"></script>
+  
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5c8e7db4101df77a8be304f7/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
 
 </body>
 
